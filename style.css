@@ -1,0 +1,95 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+ 
+  /* nav-bar */
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    /* background-color: aqua; */
+  }
+/* nav-bar left menu */
+  .logo{
+    display: flex;
+    /* background-color: red; */
+    width: 30%;
+  }
+  .logo img{
+    width: 100%;
+    z-index: 1;
+  }
+/* nav-bar right menu */
+  .menu{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+    width: 100%;
+    height: 40px;
+  }
+  .menu ul{
+    display: flex;
+width: 300px;
+justify-content: space-around;
+    flex-direction: row;
+    list-style-type: none;
+  }
+
+  .nav-link{
+    text-decoration: none;
+  }
+
+  .container1{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    top: 20px;
+    padding: 10px;
+    height: 150px;
+  }
+
+  .button{
+    background-color: yellow;
+    width: 150px;
+    height: 35px;
+  }
+
+  #email{
+    width: 200px;
+    height: 25px; 
+     padding: 3px;
+  }
+ 
+.container2{
+  display: flex;
+  position: relative;
+  top: 80px;
+  /* background-color: brown; */
+  width: 100%;
+}
+.icon1{
+  display: flex;
+  justify-content: center;
+width: 30%;
+}
+
+.offer-title{
+  display: flex;
+  font-size: 1.5rem ;
+  font-weight: bold;
+  /* background-color: yellow; */
+}
+
+.offer-description{
+  margin-bottom: 20px;
+
+
+}
