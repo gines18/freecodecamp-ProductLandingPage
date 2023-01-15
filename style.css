@@ -1,50 +1,61 @@
-
+body{
+  background-color: #6E6E6E;
+}
 *{
     margin: 0;
     padding: 0;
+    color: white;
   }
 
- 
   /* nav-bar */
   .navbar{
     display: flex;
     flex-direction: row;
     position: relative;
     width: 100%;
-    /* background-color: aqua; */
   }
 /* nav-bar left menu */
   .logo{
     display: flex;
-    /* background-color: red; */
     width: 30%;
   }
   .logo img{
     width: 100%;
     z-index: 1;
   }
-/* nav-bar right menu */
+  /* nav-bar right menu */
   .menu{
-   display: flex;
-   justify-content: flex-end;
-   align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     width: 100%;
     height: 40px;
   }
+  .menu a{
+    color: black;
+  }
+  
   .menu ul{
     display: flex;
-width: 300px;
-justify-content: space-around;
+    width: 300px;
+    justify-content: space-around;
     flex-direction: row;
     list-style-type: none;
   }
 
+  .btn-menu{
+    width: 90px;
+    height: 50px;
+    background-color: #BCFD4C;
+   
+  }
+  
   .nav-link{
     text-decoration: none;
   }
-
-  .container1{
   
+  /* header */
+  .container1{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -55,25 +66,28 @@ justify-content: space-around;
     padding: 10px;
     height: 150px;
   }
-
+  
   .button{
-    background-color: yellow;
+    background-color: #BCFD4C;
     width: 150px;
     height: 35px;
   }
-
+  .button p{
+    color: black;
+  }
+  
   #email{
     width: 200px;
     height: 25px; 
      padding: 3px;
   }
  
-.container2{
-  display: flex;
-  position: relative;
-  top: 80px;
-  /* background-color: brown; */
-  width: 100%;
+  /* Product description */
+  .container2{
+    display: flex;
+    position: relative;
+    top: 80px;
+    width: 100%;
 }
 .icon1{
   display: flex;
@@ -85,13 +99,13 @@ width: 30%;
   display: flex;
   font-size: 1.5rem ;
   font-weight: bold;
-  /* background-color: yellow; */
 }
 
 .offer-description{
   margin-bottom: 20px;
 }
 
+/* video */
 .container3{
 display: flex;
 justify-content: center;
@@ -99,5 +113,50 @@ justify-content: center;
   height: 400px;
   position: relative;  
   top: 200px;
-  /* background-color: black; */
 }
+
+/* offer cards */
+.offer-cards{
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  top: 300px;
+  width: 100%;
+  height: 400px;
+ /* Blue */
+}
+
+.offer1{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 250px;
+}
+
+.offer1-title-background{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background-color: yellow;
+width: 100%;
+height: 50px;
+color: black;
+}
+
+.offer1-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: space-around;
+  height: 300px;
+  border: 5px double white;
+  border-top: yellow;
+}
+
+.offer-button {
+  width: 100px;
+  height: 30px;
+  background-color: #BCFD4C;
+  color: black;
+}
+
