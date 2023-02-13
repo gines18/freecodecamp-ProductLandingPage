@@ -31,6 +31,6 @@ Future contribution:
 If you would like to contribute to the development of this project, feel free to submit a pull request with your proposed changes
 
 ______________________
-Leployed website link:
+Deployed website link:
 
 https://gines18.github.io/freecodecamp-ProductLandingPage/
